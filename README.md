@@ -2,6 +2,22 @@
 
 App Windows para alternar a frequência do ecrã conforme o estado de alimentação.
 
+## Sobre
+
+Esta app nasceu da vontade de contornar um comportamento que eu tinha encontrado no `G-Helper` no meu `ASUS X360`, onde a troca automática de Hz não estava a funcionar como eu precisava. A partir daí, a ideia foi explorar o problema de forma mais direta e simples, criando uma ferramenta focada apenas nesta tarefa.
+
+## Inspiração
+
+- comportamento esperado no `G-Helper`
+- necessidade real de trocar Hz consoante corrente/bateria
+- curiosidade técnica sobre como o Windows expõe as frequências disponíveis
+
+## Propósito
+
+- dar uma alternativa leve e focada para gerir Hz
+- automatizar a troca entre energia e bateria
+- manter a solução simples, sem depender de componentes mais pesados
+
 ## Funcionalidades
 
 - troca entre frequência para corrente e bateria
