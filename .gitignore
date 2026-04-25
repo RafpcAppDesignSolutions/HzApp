@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Logs and local outputs
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Local app/runtime data
+config.json
+cache.json
+app.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller temp/cache
+*.toc
+*.pkg
+*.pyz
+
+# Test / local notes
+.idea/
+
+# added by user
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.bak_*
+Old/
