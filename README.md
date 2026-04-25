@@ -1,5 +1,9 @@
 # Hz Power Switcher
 
+[![CI](https://github.com/RafpcAppDesignSolutions/HzApp/actions/workflows/python-check.yml/badge.svg)](https://github.com/RafpcAppDesignSolutions/HzApp/actions/workflows/python-check.yml)
+[![Release](https://img.shields.io/github/v/release/RafpcAppDesignSolutions/HzApp)](https://github.com/RafpcAppDesignSolutions/HzApp/releases)
+[![License](https://img.shields.io/github/license/RafpcAppDesignSolutions/HzApp)](LICENSE)
+
 App Windows para alternar a frequência do ecrã conforme o estado de alimentação.
 
 ## Sobre
@@ -43,6 +47,15 @@ build_exe.bat
 
 O executável fica em `dist\HzPowerSwitcher.exe`.
 
+## Download
+
+- o `exe` é anexado aos releases do GitHub
+- existe também um pacote `zip` portátil para distribuição rápida
+
+## Release
+
+O repositório publica automaticamente o binário quando é criada uma tag `v*`.
+
 ## Ficheiros principais
 
 - `hz_power_switcher.py`
@@ -50,6 +63,7 @@ O executável fica em `dist\HzPowerSwitcher.exe`.
 - `requirements.txt`
 - `build_exe.bat`
 - `.github/workflows/python-check.yml`
+- `.github/workflows/release.yml`
 
 ## Configuração local
 
