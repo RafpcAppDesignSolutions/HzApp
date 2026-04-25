@@ -40,9 +40,20 @@ jobs:
           Copy-Item LICENSE release\
           Compress-Archive -Path release\* -DestinationPath HzApp-portable.zip -Force
 
+      - name: Install Inno Setup
+        shell: powershell
+        run: |
+          choco install innosetup --no-progress -y
+
+      - name: Build installer
+        shell: powershell
+        run: |
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" installer\HzApp.iss
+
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
           files: |
             dist/HzApp.exe
             HzApp-portable.zip
+            installer/Output/HzApp-Setup.exe

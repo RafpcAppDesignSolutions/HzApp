@@ -51,10 +51,20 @@ O executável fica em `dist\HzPowerSwitcher.exe`.
 
 - o `exe` é anexado aos releases do GitHub
 - existe também um pacote `zip` portátil para distribuição rápida
+- existe um installer Windows com atalhos e desinstalação
 
 ## Release
 
 O repositório publica automaticamente o binário quando é criada uma tag `v*`.
+
+## Installer
+
+O instalador cria:
+
+- entrada em `Program Files`
+- atalhos no Menu Iniciar
+- opção para atalho no Desktop
+- desinstalador padrão do Windows
 
 ## Ficheiros principais
 
@@ -64,6 +74,7 @@ O repositório publica automaticamente o binário quando é criada uma tag `v*`.
 - `build_exe.bat`
 - `.github/workflows/python-check.yml`
 - `.github/workflows/release.yml`
+- `installer/HzApp.iss`
 
 ## Configuração local
 
